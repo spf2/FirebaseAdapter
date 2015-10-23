@@ -22,7 +22,7 @@
 		E78989221B96647C0049A942 /* FirebaseAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E78988BA1B95634C0049A942 /* FirebaseAdapter.framework */; };
 		E78989291B9664EC0049A942 /* Fakebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78988E71B95747A0049A942 /* Fakebase.swift */; };
 		E789892A1B9664F30049A942 /* PartitionedStreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78988E91B9574820049A942 /* PartitionedStreamTests.swift */; };
-		E789892B1B9664F60049A942 /* StreamBaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78988EB1B9574890049A942 /* StreamBaseTests.swift */; };
+		E789892B1B9664F60049A942 /* FirebaseAdapterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78988EB1B9574890049A942 /* FirebaseAdapterTests.swift */; };
 		E789892E1B96675C0049A942 /* PartitionedStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = E789892D1B96675C0049A942 /* PartitionedStream.swift */; };
 		E78989321B966A610049A942 /* UnionStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78989311B966A610049A942 /* UnionStream.swift */; };
 		E7A021E81B98C1E400D9C3AB /* TransientStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A021E71B98C1E400D9C3AB /* TransientStream.swift */; };
@@ -59,7 +59,7 @@
 		E78988DA1B9563D20049A942 /* BaseItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseItem.swift; sourceTree = "<group>"; };
 		E78988E71B95747A0049A942 /* Fakebase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fakebase.swift; sourceTree = "<group>"; };
 		E78988E91B9574820049A942 /* PartitionedStreamTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartitionedStreamTests.swift; sourceTree = "<group>"; };
-		E78988EB1B9574890049A942 /* StreamBaseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamBaseTests.swift; sourceTree = "<group>"; };
+		E78988EB1B9574890049A942 /* FirebaseAdapterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseAdapterTests.swift; sourceTree = "<group>"; };
 		E789891C1B96647C0049A942 /* FirebaseAdapterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebaseAdapterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E789891F1B96647C0049A942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E789892D1B96675C0049A942 /* PartitionedStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartitionedStream.swift; sourceTree = "<group>"; };
@@ -145,7 +145,7 @@
 				E74D47C11B967E5C0053C937 /* KeyedArrayTests.swift */,
 				E78988E91B9574820049A942 /* PartitionedStreamTests.swift */,
 				E749F53D1BA75638006143D5 /* ResourceContextTests.swift */,
-				E78988EB1B9574890049A942 /* StreamBaseTests.swift */,
+				E78988EB1B9574890049A942 /* FirebaseAdapterTests.swift */,
 				E789891E1B96647C0049A942 /* Supporting Files */,
 			);
 			path = FirebaseAdapterTests;
@@ -345,7 +345,7 @@
 				E74D47C21B967E5C0053C937 /* KeyedArrayTests.swift in Sources */,
 				E78989291B9664EC0049A942 /* Fakebase.swift in Sources */,
 				E789892A1B9664F30049A942 /* PartitionedStreamTests.swift in Sources */,
-				E789892B1B9664F60049A942 /* StreamBaseTests.swift in Sources */,
+				E789892B1B9664F60049A942 /* FirebaseAdapterTests.swift in Sources */,
 				E749F53E1BA75638006143D5 /* ResourceContextTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,9 +460,9 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = FirebaseAdapter/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.proj89.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -479,9 +479,9 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = FirebaseAdapter/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.proj89.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

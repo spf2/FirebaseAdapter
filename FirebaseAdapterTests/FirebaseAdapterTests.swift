@@ -1,5 +1,5 @@
 //
-//  StreamBaseTests.swift
+//  FirebaseAdapterTests.swift
 //  FirebaseAdapter
 //
 //  Created by Steve Farrell on 8/31/15.
@@ -10,7 +10,7 @@ import UIKit
 import XCTest
 import FirebaseAdapter
 
-class StreamBaseTests: XCTestCase {
+class FirebaseAdapterTests: XCTestCase {
     var ref: Fakebase!
     var stream: StreamBase!
     var delegate: TestDelegate!
