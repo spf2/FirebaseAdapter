@@ -8,7 +8,7 @@
 
 import Foundation
 import Firebase
-import StreamBaseKit
+import FirebaseAdapter
 
 class Environment {
     let resourceBase: ResourceBase

@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import StreamBaseKit
+import FirebaseAdapter
 
 class Message : BaseItem {
     var text: String?

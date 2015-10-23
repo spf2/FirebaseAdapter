@@ -9,7 +9,7 @@
 import Foundation
 
 import XCTest
-import StreamBaseKit
+import FirebaseAdapter
 import Firebase
 
 class ResourceContextTests: XCTestCase {

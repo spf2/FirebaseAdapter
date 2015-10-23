@@ -1,12 +1,12 @@
 //
 //  KeyedArray.swift
-//  StreamBaseKit
+//  FirebaseAdapter
 //
 //  Created by Steve Farrell on 8/31/15.
 //  Copyright (c) 2015 Steve Farrell. All rights reserved.
 //
 
-import StreamBaseKit
+import FirebaseAdapter
 import XCTest
 
 class TestKeyedObject : KeyedObject {

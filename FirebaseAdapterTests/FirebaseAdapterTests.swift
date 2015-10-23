@@ -1,6 +1,6 @@
 //
 //  StreamBaseTests.swift
-//  StreamBaseKit
+//  FirebaseAdapter
 //
 //  Created by Steve Farrell on 8/31/15.
 //  Copyright (c) 2015 Movem3nt, Inc. All rights reserved.
@@ -8,7 +8,7 @@
 
 import UIKit
 import XCTest
-import StreamBaseKit
+import FirebaseAdapter
 
 class StreamBaseTests: XCTestCase {
     var ref: Fakebase!

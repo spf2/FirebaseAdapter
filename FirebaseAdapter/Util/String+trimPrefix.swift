@@ -1,6 +1,6 @@
 //
 //  String+trimPrefix.swift
-//  StreamBaseKit
+//  FirebaseAdapter
 //
 //  Created by Steve Farrell on 9/22/15.
 //  Copyright © 2015 Steve Farrell. All rights reserved.

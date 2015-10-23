@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E78988B91B95634C0049A942"
-               BuildableName = "StreamBaseKit.framework"
-               BlueprintName = "StreamBaseKit"
-               ReferencedContainer = "container:StreamBaseKit.xcodeproj">
+               BuildableName = "FirebaseAdapter.framework"
+               BlueprintName = "FirebaseAdapter"
+               ReferencedContainer = "container:FirebaseAdapter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E789891B1B96647C0049A942"
-               BuildableName = "StreamBaseKitTests.xctest"
-               BlueprintName = "StreamBaseKitTests"
-               ReferencedContainer = "container:StreamBaseKit.xcodeproj">
+               BuildableName = "FirebaseAdapterTests.xctest"
+               BlueprintName = "FirebaseAdapterTests"
+               ReferencedContainer = "container:FirebaseAdapter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E789891B1B96647C0049A942"
-               BuildableName = "StreamBaseKitTests.xctest"
-               BlueprintName = "StreamBaseKitTests"
-               ReferencedContainer = "container:StreamBaseKit.xcodeproj">
+               BuildableName = "FirebaseAdapterTests.xctest"
+               BlueprintName = "FirebaseAdapterTests"
+               ReferencedContainer = "container:FirebaseAdapter.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E78988B91B95634C0049A942"
-            BuildableName = "StreamBaseKit.framework"
-            BlueprintName = "StreamBaseKit"
-            ReferencedContainer = "container:StreamBaseKit.xcodeproj">
+            BuildableName = "FirebaseAdapter.framework"
+            BlueprintName = "FirebaseAdapter"
+            ReferencedContainer = "container:FirebaseAdapter.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -79,9 +79,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E78988B91B95634C0049A942"
-            BuildableName = "StreamBaseKit.framework"
-            BlueprintName = "StreamBaseKit"
-            ReferencedContainer = "container:StreamBaseKit.xcodeproj">
+            BuildableName = "FirebaseAdapter.framework"
+            BlueprintName = "FirebaseAdapter"
+            ReferencedContainer = "container:FirebaseAdapter.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -97,9 +97,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E78988B91B95634C0049A942"
-            BuildableName = "StreamBaseKit.framework"
-            BlueprintName = "StreamBaseKit"
-            ReferencedContainer = "container:StreamBaseKit.xcodeproj">
+            BuildableName = "FirebaseAdapter.framework"
+            BlueprintName = "FirebaseAdapter"
+            ReferencedContainer = "container:FirebaseAdapter.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

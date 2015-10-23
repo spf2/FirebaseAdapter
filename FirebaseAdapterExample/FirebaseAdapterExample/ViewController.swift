@@ -8,7 +8,7 @@
 
 import UIKit
 import SlackTextViewController
-import StreamBaseKit
+import FirebaseAdapter
 
 class ViewController: SLKTextViewController {
     var resourceContext: ResourceContext!

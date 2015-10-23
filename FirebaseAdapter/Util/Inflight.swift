@@ -1,6 +1,6 @@
 //
 //  Inflight.swift
-//  StreamBaseKit
+//  FirebaseAdapter
 //
 //  Created by Steve Farrell on 4/30/15.
 //  Copyright (c) 2015 Movem3nt, Inc. All rights reserved.

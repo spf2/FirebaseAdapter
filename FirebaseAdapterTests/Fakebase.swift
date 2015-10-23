@@ -1,12 +1,12 @@
 //
 //  Fakebase.swift
-//  StreamBaseKit
+//  FirebaseAdapter
 //
 //  Created by Steve Farrell on 8/31/15.
 //  Copyright (c) 2015 Movem3nt, Inc. All rights reserved.
 //
 
-import StreamBaseKit
+import FirebaseAdapter
 import Firebase
 
 func paths(paths: (Int, Int)...) -> [NSIndexPath] {

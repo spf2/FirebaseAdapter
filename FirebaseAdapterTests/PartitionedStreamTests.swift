@@ -1,13 +1,13 @@
 //
 //  PartitionedStreamTests.swift
-//  StreamBaseKit
+//  FirebaseAdapter
 //
 //  Created by Steve Farrell on 8/20/15.
 //  Copyright (c) 2015 Movem3nt, Inc. All rights reserved.
 //
 
 import XCTest
-import StreamBaseKit
+import FirebaseAdapter
 
 class PartitionedStreamTests: XCTestCase {
     
