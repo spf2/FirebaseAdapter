@@ -1,6 +1,6 @@
 //
-//  StreamBaseExampleTests.swift
-//  StreamBaseExampleTests
+//  FirebaseAdapterExampleTests.swift
+//  FirebaseAdapterExampleTests
 //
 //  Created by Steve Farrell on 9/14/15.
 //  Copyright (c) 2015 Steve Farrell. All rights reserved.
@@ -9,7 +9,7 @@
 import UIKit
 import XCTest
 
-class StreamBaseExampleTests: XCTestCase {
+class FirebaseAdapterExampleTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
