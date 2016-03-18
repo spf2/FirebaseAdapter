@@ -17,6 +17,8 @@ platform :ios, '8.0'
 use_frameworks!
 ```
 
+(NOTE the code is not currently in cocoapods directory, so you'll need to fetch it like: ```git clone https://github.com/spf2/FirebaseAdapter.git```)
+
 ## Getting Started with FirebaseAdapter:
 
 If you don't have one already, sign up for a [Firebase account](https://www.firebase.com/signup/).
