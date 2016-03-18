@@ -341,7 +341,7 @@ ResourceBase has a number of hooks for subclasses to use when extending it.  The
 A simple example project is included.  To build it:
 
 ```
-$ git clone https://github.com/movem3nt/FirebaseAdapter.git
+$ git clone https://github.com/spf2/FirebaseAdapter.git
 $ cd FirebaseAdapter/FirebaseAdapterExample
 $ pod install
 $ open FirebaseAdapterExample.xcworkspace
